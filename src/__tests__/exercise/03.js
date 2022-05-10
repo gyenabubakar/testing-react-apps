@@ -3,7 +3,7 @@
 
 import * as React from 'react'
 // 🐨 add `screen` to the import here:
-import {render, fireEvent} from '@testing-library/react'
+import {screen, render, fireEvent} from '@testing-library/react'
 import Counter from '../../components/counter'
 
 test('counter increments and decrements when the buttons are clicked', () => {
